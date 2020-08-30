@@ -7,14 +7,31 @@
   <meta name="author" content="rafael.siqueira">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="css/style.css" rel="stylesheet">
+  
 </head>
 
 <body>
+  <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+  
+  
+  <h1>PDF.js 'Hello, world!' example</h1>
 
-  <div id="pdf"> </div>
+  <canvas id="the-canvas"></canvas>
 
-  <script src="/js/pdfobject.js"></script>
-  <script> PDFObject.embed("catalogo.pdf", "pdf") </script>
+  <div id="pdf1"></div>
+
+  
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
+  <script>
+   var options = {
+    pdfOpenParams: { view: 'FitV', scrollbar: '1', toolbar: '1', statusbar: '1', messages: '1', navpanes: '1' }
+   };
+
+  PDFObject.embed("catalogo.pdf", "#pdf1", options);
+  </script>-->
+  <script src="js/index.js"></script>
 </body>
 
 </html>
