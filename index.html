@@ -13,25 +13,15 @@
 </head>
 
 <body>
-  <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <div >
+    <embed 
+      type="application/pdf" 
+      src="src/catalogo.pdf"
+      class="pdf"
+    > 
+    </embed>
+  </div>
   
-  
-  <h1>PDF.js 'Hello, world!' example</h1>
-
-  <canvas id="the-canvas"></canvas>
-
-  <div id="pdf1"></div>
-
-  
-  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
-  <script>
-   var options = {
-    pdfOpenParams: { view: 'FitV', scrollbar: '1', toolbar: '1', statusbar: '1', messages: '1', navpanes: '1' }
-   };
-
-  PDFObject.embed("catalogo.pdf", "#pdf1", options);
-  </script>-->
-  <script src="js/index.js"></script>
 </body>
 
 </html>
